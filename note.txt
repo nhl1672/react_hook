@@ -1,0 +1,17 @@
+Hook là gì?
+
+- Hook là 1 function đặc biệt (Bắt đầu bằng chữ use)
+- Hook chỉ sử dụng trong funcitonal component 
+- Hook là 1 món quà do React ban tặng cho lập trình viên trong việc sử dụng funcitonal
+- React có cung cấp sẵn các hook nằm trong thư viện react
++ useState() => Tạo và quản lý các state (this.state trong class component)
++ useReducer() => Quản lý các state phức tạp
++ useRef() => Tạo và quản lý ref trong React (Class Component: React.createRef)
++ useEffect() => Mô phỏng vòng đời component
++ useMemo()
++ useCallback()
++ useContext() => Lấy dữ liệu từ Context
+
+Hook mới của React 18
+
+React cho phép các lập trình viên tự tạo Hook của riêng minh và được phép sử dụng các hook đã có trong quá trình tạo Hook
